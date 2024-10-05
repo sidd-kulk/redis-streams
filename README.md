@@ -1,5 +1,6 @@
-## Audit Service
-An Auditing service to test out Redis Streams.
+## redis-stream
+An service to test out Redis Streams.
+Uses Typescript and Express JS.
 
 ### Goals
 - Use Redis Streams to publish and subscribe messages.

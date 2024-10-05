@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: jest.config.ts
+  checksum: 6f8bf15b507af8775446f21128289c03d28137c34d58e4e926390bd687c561c3
+- filename: package-lock.json
+  checksum: 536029f16a0366e14b9f0a3c48736eada6560fbef13c310979cdf3d99ee3be40
+- filename: yarn.lock
+  checksum: 1d113b7f14bda66b4715575d1fc2033abf4adf60c8bc2ab0237cdfa85743e486
+version: "1.0"

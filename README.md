@@ -1,2 +1,8 @@
 ## Audit Service
-This service will collect Audit Events from various services that push events to either Redis or SNS and then post it to a target source (e.g. Redshift)
+An Auditing service to test out Redis Streams.
+
+### Goals
+- Use Redis Streams to publish and subscribe messages.
+- Understand the consumer groups concept.
+- Test out scalability of Redis streams and latency.
+- May be more

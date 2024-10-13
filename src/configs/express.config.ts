@@ -1,6 +1,7 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import bodyParser from 'body-parser'
+import { redisClient } from '../redis-streams-client';
 
 dotenv.config({ path: process.env.NODE_ENV ? `.env.${process.env.NODE_ENV}` : '.env' })
 

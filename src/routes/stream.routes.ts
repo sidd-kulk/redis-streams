@@ -8,10 +8,10 @@ router.post('/stream/message', async (req, res) => {
     const { message } = req.body
     
     if (!message) {
-      return res.status(400).json({ error: 'Message is required' })
+      return res.status(400).json({ error: 'Message is required.  Please check.' })
     }
 
-    const streamName = 'mystream'
+    const streamName = 'test-stream'
     const messageId = await redisClient.xAdd(streamName, '*', { 
       'message': message,
       'timestamp': Date.now().toString()
